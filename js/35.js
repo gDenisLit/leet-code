@@ -38,7 +38,6 @@ const searchInsert = (nums, target) => {
     let i = 0
     while (i < nums.length) {
         j = nums[i]
-        debugger
         if (j >= target) break
         i++
     }
@@ -47,4 +46,4 @@ const searchInsert = (nums, target) => {
 
 // console.log('INPUT:', )
 // console.log('EXPECTED:', )
-console.log('ACTUAL:', searchInsert([1,3,5,6], 7))
+console.log('ACTUAL:', searchInsert([1, 3, 5, 6], 7))
