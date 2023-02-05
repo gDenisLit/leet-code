@@ -30,42 +30,6 @@
 // 1 + 0 = 1
 // 1 + 1 = 0, carry over the 1, i.e. 10
 
-// const addBinary = (a, b) => {
-//     const length = a.length > b.length ? a.length : b.length
-//     let sum = ''
-//     let carry = 0
-//     for (let i = length - 1; i >= 0; i--) {
-//         // debugger
-//         const num1 = parseInt(a[i]) || 0
-//         const num2 = parseInt(b[i]) || 0
-
-//         const res = num1 + num2 + carry
-//         switch (res) {
-//             case 0: {
-//                 sum = 0 + sum
-//                 carry = 0
-//                 break
-//             }
-//             case 1: {
-//                 sum = 1 + sum
-//                 carry = 0
-//                 break
-//             }
-//             case 2: {
-//                 sum = 0 + sum
-//                 carry = 1
-//                 break
-//             }
-//             default: {
-//                 sum = 1 + sum
-//                 carry = 1
-//             }
-//         }
-//     }
-//     sum = carry ? carry + sum : sum
-//     return sum
-// }
-
 const addBinary = (a, b) => {
     let sum = ''
     let carry = 0
