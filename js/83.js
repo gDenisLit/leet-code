@@ -41,7 +41,6 @@ const deleteDuplicates = (list) => {
     let tempOld = list
 
     while (tempOld !== null) {
-        debugger
         if (tempOld.val === tempNew.val) {
             tempOld = tempOld.next
         }
